@@ -38,7 +38,7 @@
         button {
     	margin: 9px;
    	width: 900px; /* Largura do botão */
-    	height: 130px; /* Altura do botão */
+    	height: 400px; /* Altura do botão */
     	background-color: darkblue; /* Cor de fundo */
     	color: white; /* Cor do texto */
     	border: none; /* Remova a borda dos botões, se desejar */
@@ -58,7 +58,6 @@
     <div class="button">
         <button id="ebook">Manual do Usuário</button>
         <button id="dados">Dados Técnicos</button>
-	<button id="pesquisa">Formulário</button>
     </div>
 
     <script>
@@ -71,11 +70,6 @@
         document.getElementById('dados').addEventListener('click', function() {
             window.location.href = 'DADOS_TÉCNICOS.pdf';
 	});
-
-	// Redirecionar para link de formulário:
-        document.getElementById('pesquisa').addEventListener('click', function() {
-            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdesCT-jgHaozsxHg7NFw3ozn3d08xKIftdzUPSwcrHjMoNxg/viewform?vc=0&c=0&w=1&flr=0&pli=1';
-        });
 
     </script>
 
